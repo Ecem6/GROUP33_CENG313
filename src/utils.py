@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def plot_target_balance(df, target_col='rule_violation'):
-    """Hedef değişkenin dağılımını çizer."""
+    """Plots the distribution of the target variable."""
     plt.figure(figsize=(6, 4))
     sns.countplot(data=df, x=target_col, hue=target_col, palette='viridis', legend=False)
     plt.title('Target Variable Balance')
@@ -12,10 +12,10 @@ def plot_target_balance(df, target_col='rule_violation'):
     plt.show()
 
 def save_submission(test_df, predictions, filename='submission.csv'):
-    """Kaggle için submission CSV dosyasını oluşturur ve kaydeder."""
+    """Creates and saves a submission CSV file for Kaggle."""
     submission_df = pd.DataFrame({
         'row_id': test_df['row_id'],
         'rule_violation': predictions
     })
     submission_df.to_csv(filename, index=False)
-    print(f"Submission başarıyla '{filename}' olarak kaydedildi.")
+    print(f"Submission saved as '{filename}' .")
