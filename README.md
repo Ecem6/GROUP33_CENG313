@@ -1,7 +1,7 @@
 # Jigsaw - Agile Community Rules Classification
 
 **Course:** CENG313  
-**Group:** GROUP33_CENG313
+**Group:** 33
 
 This repository contains our group's work for the **Jigsaw - Agile Community Rules Classification** Kaggle competition as part of the CENG313 course assignments.
 
