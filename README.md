@@ -59,4 +59,6 @@ To run the project in the cloud without local setup, you can pull the repository
    %cd /content/GROUP33_CENG313
 
 ## 8. Kaggle Submission History
-*   **Submission 1 (Baseline):** *(Pending - Test predictions to be uploaded).*
+| Submission Phase | Public Score (ROC-AUC) | Private Score (ROC-AUC) | Model / Approach Description |
+| :--- | :---: | :---: | :--- |
+| **Submission 1** | **0.55470** | **0.57485** | Baseline TF-IDF + Logistic Regression |
