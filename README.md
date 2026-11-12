@@ -35,7 +35,7 @@ We follow a structured, modular pipeline divided into two main assignments:
 
 ## 4. Results
 *   **Baseline Model (Logistic Regression + TF-IDF):** 
-    *   **ROC-AUC Score:** 0.8241
+    *   **ROC-AUC Score:** 0.5547
     *   *(Assignment 2 results will be appended here).*
 
 ## 5. Repository Structure
